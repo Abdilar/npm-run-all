@@ -9,7 +9,8 @@
     "start:after": "echo \"After start the project...\"",
     "start:before": "echo \"Before start the project...\"",
     "run-sequentially": "run-s --silent --print-name start:before start start:after",
-    "run-sequentially:short-command": "run-s start:** start"
+    "run-sequentially:short-command": "run-s start:** start",
+    "start:specific-project": "echo \"The $npm_config_name project started\""
   },
   "repository": {
     "type": "git",
