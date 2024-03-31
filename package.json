@@ -1,0 +1,24 @@
+{
+  "name": "npm-run-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdilar/npm-run-all.git"
+  },
+  "keywords": [
+    "npm-run-all",
+    "npm-run-s",
+    "npm-run-c"
+  ],
+  "author": "Saeed Abdilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdilar/npm-run-all/issues"
+  },
+  "homepage": "https://github.com/Abdilar/npm-run-all#readme"
+}
