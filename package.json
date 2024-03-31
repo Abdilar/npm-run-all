@@ -8,7 +8,8 @@
     "start": "echo \"The project started...\"",
     "start:after": "echo \"After start the project...\"",
     "start:before": "echo \"Before start the project...\"",
-    "run-sequentially": "run-s --silent --print-name start:before start start:after"
+    "run-sequentially": "run-s --silent --print-name start:before start start:after",
+    "run-sequentially:short-command": "run-s start:** start"
   },
   "repository": {
     "type": "git",
