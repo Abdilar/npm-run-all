@@ -10,7 +10,8 @@
     "start:before": "echo \"Before start the project...\"",
     "run-sequentially": "run-s --silent --print-name start:before start start:after",
     "run-sequentially:short-command": "run-s start:** start",
-    "start:specific-project": "echo \"The $npm_config_name project started\""
+    "start:specific-project": "echo \"The $npm_config_name project started\"",
+    "create-file": "node create-file --file-name=index --extension=js"
   },
   "repository": {
     "type": "git",
