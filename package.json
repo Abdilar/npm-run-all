@@ -13,7 +13,11 @@
     "start:specific-project": "echo \"The $npm_config_name project started\"",
     "create-file": "node create-file",
     "run-sequentially:create-file": "run-s start:before \"create-file -- file-name=test extension=txt\" start:after",
-    "run-sequentially:create-file-placeholder": "run-s start:before \"create-file -- file-name={1} extension={2}\" start:after -- \"saeed\" \"js\""
+    "run-sequentially:create-file-placeholder": "run-s start:before \"create-file -- file-name={1} extension={2}\" start:after -- \"saeed\" \"js\"",
+    "run-parallel": "run-p start:before start start:after",
+    "run-parallel:max": "run-p start:before start start:after --max-parallel 2",
+    "run-parallel:create-file": "run-p start:before \"create-file -- file-name=test extension=txt\" start:after",
+    "run-parallel:create-file-placeholder": "run-p start:before \"create-file -- file-name={1} extension={2}\" start:after -- \"index\" \"js\""
   },
   "repository": {
     "type": "git",
